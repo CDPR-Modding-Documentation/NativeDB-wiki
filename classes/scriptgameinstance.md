@@ -20,23 +20,23 @@ Main entry-point to get systems for gameplay / environment / etc. It can be obta
 
 ## Functions
 
-#### GetDelaySystem
+#### GetDelaySystem(self: GameInstance) -> ref\<DelaySystem>
 
 Get system used to execute callback functions after a delay. It runs functions asynchronously in game loop.
 
-#### GetTelemetrySystem
+#### GetTelemetrySystem(self: GameInstance) -> ref\<TelemetrySystem>
 
 CDPR only.
 
-#### GetTeleportationFacility
+#### GetTeleportationFacility(self: GameInstance) -> ref\<TeleportationFacility>
 
 Get system used to teleport a \[GameObject] to \[Vector4] coordinates or to a \[NodeRef].
 
-#### GetTimeSystem
+#### GetTimeSystem(self: GameInstance) -> ref\<TimeSystem>
 
 Get system used to change game time, including time dilation.
 
-#### GetVehicleSystem
+#### GetVehicleSystem(self: GameInstance) -> ref\<VehicleSystem>
 
 Get system used to summon vehicles and unlock vehicles in player's garage.
 

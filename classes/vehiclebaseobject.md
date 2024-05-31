@@ -20,15 +20,15 @@ Base class of a vehicle used for cars, bikes, tanks and AVs.
 
 ## Functions
 
-#### GetCurrentSpeed
+#### GetCurrentSpeed() -> Float
 
 Always in km/h.
 
-#### GetTotalMass
+#### GetTotalMass() -> Float
 
 Always in kg.
 
-#### NotifyWindowChange
+#### NotifyWindowChange(windowName: CName, isOpened: Bool) -> Void
 
 `windowName` accepts the following known values:
 
