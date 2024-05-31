@@ -28,7 +28,7 @@ Always in km/h.
 
 Always in kg.
 
-#### NotifyWindowChange(windowName: CName, isOpened: Bool) -> Void
+#### NotifyWindowChange(windowName: CName, isOpened: Bool) → Void
 
 `windowName` accepts the following known values:
 
