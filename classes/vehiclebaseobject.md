@@ -20,6 +20,34 @@ Base class of a vehicle used for cars, bikes, tanks and AVs.
 
 ## Functions
 
+#### ActivateNetrunnerQuickhack(chooseHack: vehicleVehicleNetrunnerQuickhackType) -> Void
+
+This is a paragraph with a reference to \[WeaponObject].
+
+* an unordered
+* list
+
+1. an ordered
+2. list
+
+* [ ] a task
+* [ ] list
+
+***
+
+{% hint style="info" %}
+A hint
+{% endhint %}
+
+> Some quote
+
+```swift
+// Some Redscript code
+public class Test {
+  private let m_field: Int32;
+}
+```
+
 #### GetActiveWeapons(out weaponList: array:whandle:gameweaponObject) -> Void
 
 Parsing parameter's flags and nested types.
