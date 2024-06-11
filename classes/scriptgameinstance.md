@@ -16,7 +16,7 @@ layout:
 
 ## Description
 
-Main entry-point to get systems for gameplay / environment / etc. It can be obtained using global function \[GetGameInstance].
+Main entry-point to get systems for gameplay / environment / etc. You can get it using global function \[GetGameInstance]. You should use function \[GameObject.GetGame] instead when doing stuff from a \[GameObject] and children classes.
 
 ## Functions
 
