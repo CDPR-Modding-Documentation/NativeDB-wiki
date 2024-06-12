@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# BlackboardSystem
+# gameBlackboardSystem
 
 ## Description
 
