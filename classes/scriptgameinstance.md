@@ -38,6 +38,6 @@ Get system used to change game time, including time dilation.
 
 #### GetVehicleSystem(self: ScriptGameInstance) -> handle:gameVehicleSystem
 
-Get system used to summon vehicles and unlock vehicles in player's garage.
+Get system used to summon vehicles and unlock vehicles in V's garage.
 
 See also \[VehicleObject], \[VehicleComponent] and \[vehicleController] to access more vehicle behaviours.
