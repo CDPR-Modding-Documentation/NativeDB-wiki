@@ -5,5 +5,5 @@
 ## CLASSES
 
 * [ScriptGameInstance](classes/scriptgameinstance.md)
-* [TestSystem](classes/testsystem.md)
+* [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [vehicleBaseObject](classes/vehiclebaseobject.md)
