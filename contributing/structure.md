@@ -79,7 +79,7 @@ You should use the feature provided by NativeDB to quickly copy the signature of
 As an example with the function `FindEntityById`, it will look like this in your clipboard, ready to paste in GitBook:
 
 ```
-### FindEntityByID(self: ScriptGameInstance, entityId: entEntityID) -&gt; handle:entEntity
+FindEntityByID(self: ScriptGameInstance, entityId: entEntityID) -&gt; handle:entEntity
 ```
 
 Like with the description, you can then add content below the header of the function to describe it.
@@ -88,6 +88,10 @@ Like with the description, you can then add content below the header of the func
 You don't have to write both sections (**Description** and **Functions**) when creating a new class. You need to at least add one of the two sections, be it **Description** or **Functions**.
 
 When present, the section **Description** must be at the very top of the page.
+{% endhint %}
+
+{% hint style="warning" %}
+Don't insert Markdown from GitBook, like # character to elevate a header. Only use UI of GitBook to update state of a block.
 {% endhint %}
 
 #### Minimal example
