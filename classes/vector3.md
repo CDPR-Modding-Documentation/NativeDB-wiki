@@ -14,11 +14,11 @@ layout:
 
 # Vector3
 
-### Description
+## Description
 
 3D coordinates with floating point precision.
 
-### Functions
+## Functions
 
 #### Lerp(a: Vector3, b: Vector3, t: Float) -> Vector3
 
