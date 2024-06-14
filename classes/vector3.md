@@ -22,4 +22,6 @@ layout:
 
 #### Lerp(a: Vector3, b: Vector3, t: Float) -> Vector3
 
-Linearly compute an intermediate position between `a` and `b`. `t` is a factor between `0.0` (equals a) and 1.0 (equals b).
+Linearly compute an intermediate position between `a` and `b`.
+
+`t` is a factor between 0.0 and 1.0 (0.0 returns `a` while 1.0 returns `b`).

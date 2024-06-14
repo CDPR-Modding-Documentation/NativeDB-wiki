@@ -40,7 +40,7 @@ Title of the page must be the native name of the class. You can configure code s
 
 ### Add a description
 
-Add header "Description**"** using block "Heading 2".
+Add header "Description**"** using block "Heading 1".
 
 {% hint style="success" %}
 **DO** write Description
@@ -56,7 +56,7 @@ After this header, you can add content (like a paragraph) to describe useful kno
 
 ### Add functions
 
-Add header "Functions" using block "Heading 2", if it doesn't exist already. You can then add functions after this header, as described below.
+Add header "Functions" using block "Heading 1", if it doesn't exist already. You can then add functions after this header, as described below.
 
 {% hint style="success" %}
 **DO** write Functions
@@ -90,10 +90,6 @@ You don't have to write both sections (**Description** and **Functions**) when c
 When present, the section **Description** must be at the very top of the page.
 {% endhint %}
 
-{% hint style="warning" %}
-Don't insert Markdown from GitBook, like # character to elevate a header. Only use UI of GitBook to update state of a block.
-{% endhint %}
-
 #### Minimal example
 
 ```markdown
@@ -106,12 +102,12 @@ You can omit this section when you have nothing to say here.
 
 ## Functions
 
-### CanReload(self: handle:gameweaponObject) -&gt; Bool
+#### CanReload(self: handle:gameweaponObject) -&gt; Bool
 
 This is an example of what you should NOT write documentation for. The signature
 of the function and the name are already explicit about what this function does.
 
-### GetAttack(recordName: CName) -&gt; handle:gameIAttack
+#### GetAttack(recordName: CName) -&gt; handle:gameIAttack
 
 You can append functions one after the other, preferably in alphabetical order. In 
 this case, it could be useful to list known values used by the argument `recordName`.
