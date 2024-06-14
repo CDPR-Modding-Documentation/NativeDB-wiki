@@ -10,4 +10,5 @@
 
 * [ScriptGameInstance](classes/scriptgameinstance.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
+* [Vector3](classes/vector3.md)
 * [vehicleBaseObject](classes/vehiclebaseobject.md)
