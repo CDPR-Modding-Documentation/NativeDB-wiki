@@ -48,6 +48,16 @@ For example, it is preferred to tell **Prevention** is about **NCPD**. This way,
 
 As another example, you can write **V** when talking about the [PlayerPuppet](https://nativedb.red4ext.com/PlayerPuppet). It should be explicit for anyone, and is shorter to write than **the player**.
 
+## List known data
+
+A function might need some kind of predefined data as arguments. Think about the `CName` type, it is a string-like type but values are not listed like enums. We don't know about them. In this case, a modder will have to dig and search what values the function accepts as a `CName`.
+
+If you know all or even only one valid value, you should list them when documenting the function. This way, others know what data to use when they need to call this function too.
+
+If the list of values is very big, use a link instead to reference some Sheet-like document containing all known values.
+
+If the list of values is accessible using WolvenKit, add a note about it and provide the path where to look for the data.
+
 ## CDPR only
 
 In the codebase, you can find features that are not related to the gameplay, saves, the world, etc. For example, you should not care nor mess around with the [TelemetrySystem](https://nativedb.red4ext.com/ScriptGameInstance#GetTelemetrySystem).
