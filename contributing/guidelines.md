@@ -37,7 +37,7 @@ For example, the name of the class [PreventionSystem](https://nativedb.red4ext.c
 This documentation is not about showing how to use a snippet of code: be it in Redscript, Lua or else. In this spirit, writing code in the documentation should be avoided. If it is deemed really useful, it should be as short as possible.
 
 {% hint style="success" %}
-This [wiki](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/fwsaoju1TBAUvMpI6NIw/) is already present to share knowledge about the code and scripting in general. You should share your findings in this space, not in this documentation.
+[Scripting Cyberpunk](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/fwsaoju1TBAUvMpI6NIw/) is already present to share knowledge about the code and scripting in general. You should share your findings in this space, not in this documentation.
 {% endhint %}
 
 ## Game vocabulary
