@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Home](README.md)
+* [Contributing](contributing/README.md)
+  * [Structure](contributing/structure.md)
+  * [Format and syntax](contributing/format-and-syntax.md)
+  * [Guidelines](contributing/guidelines.md)
 
 ## CLASSES
 
