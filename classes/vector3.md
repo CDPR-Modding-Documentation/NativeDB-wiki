@@ -14,12 +14,12 @@ layout:
 
 # Vector3
 
-### Description
+\_Description
 
 3D coordinates with floating point precision.
 
-### Functions
+\_Functions
 
-#### Lerp(a: Vector3, b: Vector3, t: Float) -> Vector3
+\_Lerp(a: Vector3, b: Vector3, t: Float) -> Vector3
 
 Linearly compute an intermediate position between `a` and `b`. `t` is a factor between `0.0` (equals a) and 1.0 (equals b).
