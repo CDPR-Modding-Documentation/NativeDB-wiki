@@ -8,15 +8,17 @@ description: >-
 
 One sub-page = one class
 
-Sub-page of a class must be within page "CLASSES".
+One sub-page = one struct
+
+Sub-page of a class or a struct must be within page "CLASSES".
 
 Order sub-pages alphabetically (from A to Z).
 
 {% hint style="info" %}
-It is useful to quickly navigate between classes, like to browse / add new classes.
+It is useful to quickly navigate between classes and to add new classes.
 {% endhint %}
 
-## Class
+## Class / Struct
 
 You have to follow a small set of rules to write documentation about a class. The format described below is required to show the documentation in NativeDB.
 
