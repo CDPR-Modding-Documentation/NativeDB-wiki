@@ -32,6 +32,59 @@ For example, the name of the class [PreventionSystem](https://nativedb.red4ext.c
 **DON'T** add documentation about a function like [IsMoving](https://nativedb.red4ext.com/PlayerPuppet#IsMoving), only to say "Return true when player is moving, false otherwise".
 {% endhint %}
 
+## Keep it short
+
+One phrase, one idea.
+
+Reading is hard, keep it as short as possible. Below are patterns you can reuse to structure your comment:
+
+### Explain behavior
+
+When a general description is somehow required and useful to provide context.
+
+#### Pattern
+
+1. Short description (up to 3 phrases).
+2. Elaborate description (optional, when short description is not enough to fit knowledge).
+3. Provide related resources / references (optional, when related and newcomers are not aware of it).
+
+#### Example
+
+```markdown
+#### GetVehicleSystem(self: ScriptGameInstance) -> handle:gameVehicleSystem
+
+Get system used to summon vehicles and unlock vehicles in V's garage.
+
+See also [VehicleObject], [VehicleComponent] and [vehicleController] to access more 
+vehicle behaviours.
+```
+
+### Explain arguments
+
+When behavior is already explicit, but an argument requires a description and more information like a default value, [list of known values](guidelines.md#list-known-data), etc.
+
+#### Pattern
+
+1. Short description (optional).
+2. Argument with description and optionally the default value / a list of known values.
+
+#### Example
+
+```markdown
+#### Lerp(a: Vector3, b: Vector3, t: Float) -&gt; Vector3
+
+Linearly compute an intermidiate position between `a` and `b`.
+
+`t` is a factor with values between `0.0` and `1.0`:
+- when `t = 0.0` it returns `a`
+- when `t = 0.5` it returns `(b - a) * 0.5 + a`
+- when `t = 1.0` it returns `b`
+```
+
+{% hint style="info" %}
+Patterns above are propositions. It is easier as a reader to see and read documentation when it uses the same format everywhere. It might take a bit of an effort to get used to it as a writer.
+{% endhint %}
+
 ## Avoid code
 
 This documentation is not about showing how to use a snippet of code: be it in Redscript, Lua or else. In this spirit, writing code in the documentation should be avoided. If it is deemed really useful, it should be as short as possible.
@@ -57,6 +110,14 @@ If you know all or even only one valid value, you should list them when document
 If the list of values is very big, use a link instead to reference some Sheet-like document containing all known values.
 
 If the list of values is accessible using WolvenKit, add a note about it and provide the path where to look for the data.
+
+## Optional argument
+
+An argument of a function is optional when marked with the `opt` prefix. It can be helpful to describe what default value is used. It can look like this:
+
+```markdown
+`nameOfArgument` optional description of argument (default is `value`).
+```
 
 ## CDPR only
 
