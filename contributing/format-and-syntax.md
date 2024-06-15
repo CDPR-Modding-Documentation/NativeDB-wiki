@@ -17,3 +17,32 @@ description: >-
 {% hint style="info" %}
 Don't hesitate to look at other classes to see how the syntax is used, and how it looks like in NativeDB. If you are not sure, you can always come and ask on Discord.
 {% endhint %}
+
+### Example
+
+The following example is only made to show all possible syntax options. There is nothing related to the game:
+
+```markdown
+# FigTree
+
+## Description
+
+It is made of branches and leaves. A [FigBranch] can spawn up to 5 other branches. 
+It can also grow [FigFruit], up to 16 on a single branch.
+
+See also [Wikipedia](https://en.wikipedia.org/wiki/Fig).
+
+## Functions
+
+#### GetAge() -> Uint32
+
+UTC timestamp in seconds.
+
+Same as [this.age].
+
+#### GrowFruits(opt probability: Float) -> array:handle:FigFruit
+
+`probability` can be between 0.0 and 1.0 (default is 0.5):
+- 0.0 grows zero fruits.
+- 1.0 grows fruits on all branches based on their capacity.
+```
