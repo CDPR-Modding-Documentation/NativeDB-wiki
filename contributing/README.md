@@ -26,16 +26,15 @@ NativeDB expects a custom format and structure to get the data from GitBook, and
 
 Now that you made a change request, wrote some documentation, you can request a review. An administrator will check it, and if it is alright, merge your change request.
 
+NativeDB will store the documentation in your browser as a cache. It helps improve performance and it reduces the usage of the network's bandwidth. It will only refresh the list of documented classes every 10 minutes (to see if there are changes to update locally). If NativeDB is already open, it will not show your last merged change request. You can wait up to 10 minutes or hit `F5` to refresh your tab.
+
 Thank you for your contributions!
 
 {% hint style="info" %}
-If you get lost,
-
-If you think a guide lack information,
-
-If you think a guide is not clear enough,
-
+If you get lost,\
+If you think a guide lack information,\
+If you think a guide is not clear enough,\
 If you have any other feedback to share,
 
-Please do reach us on Discord in the [NativeDB@api-doc](https://discord.com/channels/717692382849663036/1204386919727894548) channel or in the [wiki](https://discord.com/channels/717692382849663036/856530352533405696) channel.
+Please do reach us on Discord in the [NativeDB@wiki](https://discord.com/channels/717692382849663036/1204386919727894548) channel.
 {% endhint %}
