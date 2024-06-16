@@ -12,4 +12,3 @@
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
-* [vehicleBaseObject](classes/vehiclebaseobject.md)
