@@ -1,15 +1,11 @@
 ---
-description: Space to store API documentation for RTTI definitions.
+description: Space to store and share documentation of RTTI definitions.
 ---
 
 # Home
 
 This space stores documentation and is used to show it when browsing RTTI dump using NativeDB.
 
-{% hint style="danger" %}
-Prototyping only.
+If you have an issue or feedback to share, come and talk about it on [NativeDB@wiki](https://discord.com/channels/717692382849663036/1204386919727894548) channel.
 
-If you don't know why you are here, you might want to move [elsewhere](https://app.gitbook.com/o/-MP5ijqI11FeeX7c8-N8/s/4gzcGtLrr90pVjAWVdTc/).
-
-This space is likely to be removed / refactored until a definitive solution is used (this or another) in order to store documentation for NativeDB.
-{% endhint %}
+If you want to contribute, please go to the next guide:
