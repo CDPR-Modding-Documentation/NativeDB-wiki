@@ -20,6 +20,10 @@ Main entry-point to get systems for gameplay / environment / etc. You can get it
 
 ## Functions
 
+#### GetAchievementSystem(self: ScriptGameInstance) -> handle:gameAchievementSystem
+
+CDPR only.
+
 #### GetDelaySystem(self: ScriptGameInstance) -> handle:gameDelaySystem
 
 Get system used to execute callback functions after a delay. It runs functions asynchronously in game loop.
