@@ -10,5 +10,6 @@
 ## CLASSES
 
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
+* [inkTextWidget](classes/inktextwidget.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
