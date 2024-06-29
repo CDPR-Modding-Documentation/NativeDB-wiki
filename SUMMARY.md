@@ -9,6 +9,7 @@
 
 ## CLASSES
 
+* [AIVehicleJoinTrafficCommand](classes/aivehiclejointrafficcommand.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
