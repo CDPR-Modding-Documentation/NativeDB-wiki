@@ -38,3 +38,9 @@ Known relative paths for `fontFamilyPath`, in root path `base\gameplay\gui\fonts
 * raj\raj.inkfontfamily
 * foreign\japanese\smart\_font\_ui\smart\_font\_ui.inkfontfamily
 * foreign\thai\th\_sarabun\_new\th\_sarabun\_new.inkfontfamily
+
+#### SetFontStyle(fontStyle: CName) -> Void
+
+This call is not enough to redraw the widget with the new font style. You can trigger a redraw by calling another function too, for example using `SetText` or `SetFontSize` with the same current value.
+
+`fontStyle` values are unique per font family, you can find them in `.inkfontfamily` files using WolvenKit. List of known values: `Regular`, `Light`, `Medium`, `Heavy`, `Semi-Bold`, `Bold`, `Extra Bold`, `Italic`, `Bold Italic`, `Black`, `Demi`, `Book`, `Book Italic`.
