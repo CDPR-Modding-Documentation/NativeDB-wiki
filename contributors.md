@@ -22,7 +22,8 @@ In alphabetical order, many thanks to:
 
 * manavortex
 * psiberx
-* Rayshader · x3
+* Rayshader · x4
 * rfuzzo
 * RollermineC · x1
+* Seijax · x1
 * void\*

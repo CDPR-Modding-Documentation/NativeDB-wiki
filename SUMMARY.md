@@ -11,7 +11,7 @@
 
 * [AIVehicleJoinTrafficCommand](classes/aivehiclejointrafficcommand.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
+* [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [inkTextWidget](classes/inktextwidget.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
-* [gameTargetSearchQuery](classes/gametargetsearchquery.md)
