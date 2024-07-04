@@ -14,3 +14,4 @@
 * [inkTextWidget](classes/inktextwidget.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
+* [gameTargetSearchQuery](classes/gametargetsearchquery.md)
