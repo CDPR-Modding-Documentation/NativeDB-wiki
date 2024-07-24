@@ -28,6 +28,10 @@ CDPR only.
 
 Get system used to execute callback functions after a delay. It runs functions asynchronously in game loop.
 
+#### GetSimTime(self: ScriptGameInstance) -> EngineTime
+
+Get elapsed time since the simulation started. Time is reset when navigating between menu and in-game scenes. Time is paused when game is paused (e.g. inventory menu is open).
+
 #### GetTelemetrySystem(self: ScriptGameInstance) -> handle:gameTelemetryTelemetrySystem
 
 CDPR only.
