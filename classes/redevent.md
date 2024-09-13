@@ -1,5 +1,7 @@
 # redEvent
 
+## Description
+
 Dispatched throughout game session to trigger gameplay logic, for various purposes:
 
 * combat
