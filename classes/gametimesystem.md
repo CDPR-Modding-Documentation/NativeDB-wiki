@@ -2,7 +2,7 @@
 
 ## Description
 
-Using for everything time-based:
+Use with everything time-based:
 
 * real time
 * time in V's storyline
