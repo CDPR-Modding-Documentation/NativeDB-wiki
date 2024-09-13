@@ -17,6 +17,7 @@
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [gameDelaySystem](classes/gamedelaysystem.md)
 * [gameDelaySystemScriptedDelayCallbackWrapper](classes/gamedelaysystemscripteddelaycallbackwrapper.md)
+* [gameGameAudioSystem](classes/gamegameaudiosystem.md)
 * [gamemountingMountingRelationship](classes/gamemountingmountingrelationship.md)
 * [gameObject](classes/gameobject.md)
 * [gameScriptableSystem](classes/gamescriptablesystem.md)
