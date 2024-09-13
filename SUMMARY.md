@@ -23,6 +23,7 @@
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [gameTimeSystem](classes/gametimesystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
+* [NPCPuppet](classes/npcpuppet.md)
 * [redEvent](classes/redevent.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
