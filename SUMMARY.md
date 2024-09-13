@@ -17,6 +17,7 @@
 * [gameDelaySystem](classes/gamedelaysystem.md)
 * [gameDelaySystemScriptedDelayCallbackWrapper](classes/gamedelaysystemscripteddelaycallbackwrapper.md)
 * [gamemountingMountingRelationship](classes/gamemountingmountingrelationship.md)
+* [gameObject](classes/gameobject.md)
 * [gameScriptableSystem](classes/gamescriptablesystem.md)
 * [gameScriptableSystemRequest](classes/gamescriptablesystemrequest.md)
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
