@@ -17,10 +17,19 @@ Note:
 * `timeToDelay` : delay duration in seconds.
 * `isAffectedByTimeDilation`: whether callback will be slowed down based on current active time dilation (e.g. when time slows during e.g. Sandevistan).
 
-> More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/callbacks.html).
+More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/callbacks.html).
 
 #### DelayEvent(entity: whandle:entEntity, eventToDelay: handle:redEvent, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
 
 Supports any class inheriting from [Event](https://nativedb.red4ext.com/Event), including custom ones.
 
-> More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/events.html).
+More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/events.html#delayed-events).
+
+#### GetRemainingDelayTime(delayID: gameDelayID) -> Float
+
+How long remains before associated callback, event or tick gets called.
+
+#### TickOnEvent(entity: whandle:entEntity, eventToTick: handle:gameTickableEvent, duration: Float) -> gameDelayID
+
+More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/events.html#tickable-events).
+
