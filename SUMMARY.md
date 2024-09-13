@@ -13,6 +13,7 @@
 * [gameDelayID](classes/gamedelayid.md)
 * [EngineTime](classes/enginetime.md)
 * [entEntity](classes/ententity.md)
+* [entIComponent](classes/enticomponent.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [gameDelaySystem](classes/gamedelaysystem.md)
 * [gameDelaySystemScriptedDelayCallbackWrapper](classes/gamedelaysystemscripteddelaycallbackwrapper.md)
