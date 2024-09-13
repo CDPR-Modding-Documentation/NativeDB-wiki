@@ -21,6 +21,7 @@
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [gameTimeSystem](classes/gametimesystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
+* [redEvent](classes/redevent.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)
 * [vehicleBaseObject](classes/vehiclebaseobject.md)
