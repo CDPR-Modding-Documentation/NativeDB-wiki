@@ -14,6 +14,7 @@
 * [EngineTime](classes/enginetime.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [gameDelaySystem](classes/gamedelaysystem.md)
+* [gameDelaySystemScriptedDelayCallbackWrapper](classes/gamedelaysystemscripteddelaycallbackwrapper.md)
 * [gamemountingMountingRelationship](classes/gamemountingmountingrelationship.md)
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [inkTextWidget](classes/inktextwidget.md)
