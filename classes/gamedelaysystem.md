@@ -4,26 +4,22 @@
 
 Allows to schedule callbacks, events or system requests in various ways.
 
-Note:
-
-* callback is triggered only once, but nothing prevents from rescheduling it manually at your convenience.
-* callback will not get triggered when set over a certain delay (like 1 or 3min), but nothing prevents from rescheduling while keeping track of how long has elapsed, with a timestamp (see [TimeSystem](https://nativedb.red4ext.com/gameTimeSystem#GetGameTimeStamp)).
-* [DelayID](https://nativedb.red4ext.com/DelayID) can be kept around to interrupt a running callback, event or tick anytime (see `CancelDelay`, `CancelEvent` and `CancelTick`). You can also check how long remains before being eventually called (see `GetRemainingDelayTime`).
-
 ## Functions
 
 #### DelayCallback(delayCallback: handle:gameDelaySystemScriptedDelayCallbackWrapper, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
+
+Note that callback is triggered only once, but nothing prevents from rescheduling it manually at your convenience.
 
 * `timeToDelay` : delay duration in seconds.
 * `isAffectedByTimeDilation`: whether callback will be slowed down based on current active time dilation (e.g. when time slows during e.g. Sandevistan).
 
 #### DelayEvent(entity: whandle:entEntity, eventToDelay: handle:redEvent, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
 
-Supports any [Event](https://nativedb.red4ext.com/Event), including custom ones.
+Supports any `Event`, including custom ones.
 
 e.g.
 
-```
+```swift
 // You can also create your own custom event.
 public class MyEvent extends Event {
   public let v: wref<PlayerPuppet>;
