@@ -22,3 +22,6 @@ Stop a previously played sound, optionally defined on an entity with specific na
 
 Switch from one sound to another, optionally specifying an entity as emitter with its name.
 
+#### VoIsPerceptible(entityId: entEntityID) -> Bool
+
+Whether entity's voice (a.k.a voiceover) can be heard from where player stands.
