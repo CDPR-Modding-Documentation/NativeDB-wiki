@@ -4,7 +4,11 @@
 
 Responsible for managing all audio-related functionality within the game. This system controls everything from background music and sound effects to character dialogue and environmental sounds.
 
-Game sounds can be browsed on [SoundDB](https://sounddb.redmodding.org/).
+Game sounds can be browsed and listened to on [SoundDB](https://sounddb.redmodding.org/).
+
+Sounds can be replaced with [REDmod](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators-theory/modding-tools/redmod/audio-modding), with predefined [audio parameters](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators-theory/modding-tools/redmod/audio-modding#parameters).
+
+If you need more control over how sounds can be played in-game, you might want to consider [Audioware](https://cyb3rpsych0s1s.github.io/audioware/).
 
 ## Functions
 
