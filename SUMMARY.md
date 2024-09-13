@@ -10,6 +10,7 @@
 ## CLASSES
 
 * [AIVehicleJoinTrafficCommand](classes/aivehiclejointrafficcommand.md)
+* [gameDelayID](classes/gamedelayid.md)
 * [EngineTime](classes/enginetime.md)
 * [gameBlackboardSystem](classes/gameblackboardsystem.md)
 * [gameDelaySystem](classes/gamedelaysystem.md)
