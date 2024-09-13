@@ -17,6 +17,7 @@
 * [gameDelaySystemScriptedDelayCallbackWrapper](classes/gamedelaysystemscripteddelaycallbackwrapper.md)
 * [gamemountingMountingRelationship](classes/gamemountingmountingrelationship.md)
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
+* [gameTimeSystem](classes/gametimesystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
 * [redResourceReferenceScriptToken](classes/redresourcereferencescripttoken.md)
 * [ScriptGameInstance](classes/scriptgameinstance.md)

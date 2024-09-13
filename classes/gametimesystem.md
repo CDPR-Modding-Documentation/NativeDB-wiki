@@ -1,0 +1,32 @@
+# gameTimeSystem
+
+## Description
+
+Using for everything time-based:
+
+* real time
+* simulation time
+* time in V's storyline
+* time dilation (e.g. when activating Sandevistan)
+
+## Functions
+
+#### GetGameTime() -> GameTime
+
+Time elapsed in V's storyline.
+
+#### GetGameTimeStamp() -> Float
+
+Real time, as a [timestamp epoch](https://www.epochconverter.com/).
+
+#### GetSimTime() -> EngineTime
+
+Simulation time.
+
+#### IsTimeDilationActive(opt reason: CName) -> Bool
+
+Whether V or NPCs are currently using time dilation (usually via cyberware, e.g. Sandevistan).
+
+#### RealTimeSecondsToGameTime(seconds: Float) -> GameTime
+
+Convert from real-time seconds to game time.
