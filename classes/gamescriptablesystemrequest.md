@@ -1,12 +1,26 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # gameScriptableSystemRequest
 
 ## Description
 
-Allows triggering callbacks on [ScriptableSystem](https://nativedb.red4ext.com/ScriptableSystem).
+Allows triggering callbacks on \[ScriptableSystem].
 
-Prefer [DelayCallback](https://nativedb.red4ext.com/DelayCallback) whenever possible.
+Prefer \[DelayCallback] whenever possible.
 
-More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/systems.html#requests).
+More info and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/systems.html#requests).
 
 ## Functions
 
