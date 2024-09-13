@@ -1,8 +1,8 @@
----
-description: Allows to schedule callbacks, events or system requests in various ways.
----
-
 # gameDelaySystem
+
+## Description
+
+Allows to schedule callbacks, events or system requests in various ways.
 
 ## Functions
 
