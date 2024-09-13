@@ -4,9 +4,9 @@ description: Allows to schedule callbacks, events or system requests in various 
 
 # gameDelaySystem
 
-### Functions
+## Functions
 
-#### DelayCallback(delayCallback: handle:gameDelaySystemScriptedDelayCallbackWrapper, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -\&gt; gameDelayID
+#### DelayCallback(delayCallback: handle:gameDelaySystemScriptedDelayCallbackWrapper, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
 
 Note that callback is triggered only once, but nothing prevents from rescheduling it manually at your convenience.
 
