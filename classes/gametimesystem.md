@@ -5,8 +5,8 @@
 Using for everything time-based:
 
 * real time
-* simulation time
 * time in V's storyline
+* REDengine simulation time
 * time dilation (e.g. when activating Sandevistan)
 
 ## Functions
@@ -21,7 +21,7 @@ Real time, as a [timestamp epoch](https://www.epochconverter.com/).
 
 #### GetSimTime() -> EngineTime
 
-Simulation time.
+REDengine simulation time.
 
 #### IsTimeDilationActive(opt reason: CName) -> Bool
 
