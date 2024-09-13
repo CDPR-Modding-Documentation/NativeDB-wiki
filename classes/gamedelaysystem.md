@@ -19,7 +19,7 @@ Note:
 
 #### DelayEvent(entity: whandle:entEntity, eventToDelay: handle:redEvent, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
 
-Supports any `Event`, including custom ones.
+Supports any [Event](https://nativedb.red4ext.com/Event), including custom ones.
 
 e.g.
 
