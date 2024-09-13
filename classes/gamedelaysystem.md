@@ -25,6 +25,10 @@ Supports any class inheriting from [Event](https://nativedb.red4ext.com/Event), 
 
 More infos and code snippets [there](https://cyb3rpsych0s1s.github.io/4ddicted/patterns/events.html#delayed-events).
 
+#### DelayScriptableSystemRequest(systemName: CName, requestToDelay: handle:gameScriptableSystemRequest, timeToDelay: Float, opt isAffectedByTimeDilation: Bool) -> gameDelayID
+
+Use with [ScriptableSystemRequest](https://nativedb.red4ext.com/ScriptableSystemRequest).
+
 #### GetRemainingDelayTime(delayID: gameDelayID) -> Float
 
 How long remains before associated callback, event or tick gets called.
