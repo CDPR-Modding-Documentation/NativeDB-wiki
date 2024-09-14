@@ -24,6 +24,7 @@
 * [gameScriptableSystemRequest](classes/gamescriptablesystemrequest.md)
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [gameTimeSystem](classes/gametimesystem.md)
+* [gameTransactionSystem](classes/gametransactionsystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
 * [NPCPuppet](classes/npcpuppet.md)
 * [redEvent](classes/redevent.md)
