@@ -22,7 +22,7 @@ In alphabetical order, many thanks to:
 
 * manavortex
 * psiberx
-* Rayshader · x8
+* Rayshader · x9
 * rfuzzo
 * RollermineC · x1
 * roms1383 · x12
