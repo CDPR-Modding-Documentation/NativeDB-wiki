@@ -16,7 +16,9 @@ layout:
 
 ## Description
 
-Main entry-point to get systems for gameplay / environment / etc. You can get it using global function \[GetGameInstance]. You should use function \[GameObject.GetGame] instead when doing stuff from a \[GameObject] and children classes.
+Main entry-point to get systems for gameplay / environment / etc.
+
+You can get it using global function \[GetGameInstance]. When [Codeware](https://github.com/psiberx/cp2077-codeware/wiki) is installed, you can always use \[GetGameInstance] without issues. Otherwise, you may need to get \[GameInstance] through other functions like \[GameObject.GetGame] for example.
 
 ## Functions
 
