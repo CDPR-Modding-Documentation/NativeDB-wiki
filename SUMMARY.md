@@ -27,6 +27,7 @@
 * [gameTimeSystem](classes/gametimesystem.md)
 * [gameTransactionSystem](classes/gametransactionsystem.md)
 * [inkTextWidget](classes/inktextwidget.md)
+* [inkWidget](classes/inkwidget.md)
 * [IScriptable](classes/iscriptable.md)
 * [NPCPuppet](classes/npcpuppet.md)
 * [redEvent](classes/redevent.md)
