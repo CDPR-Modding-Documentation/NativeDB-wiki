@@ -25,3 +25,7 @@ This function will only work when the game engine is initialized, meaning a \[Ga
 Use this function to write in logs, along with \[FTLogWarning] and \[FTLogError].
 
 See [wiki](https://wiki.redmodding.org/redscript/references-and-examples/logging) for more about logging.
+
+#### LogChannel() -> Void
+
+See \[FTLog] instead.
