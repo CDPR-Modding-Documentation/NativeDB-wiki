@@ -41,6 +41,6 @@ Known relative paths for `fontFamilyPath`, in root path `base\gameplay\gui\fonts
 
 #### SetFontStyle(fontStyle: CName) -> Void
 
-This call is not enough to redraw the widget with the new font style. You can trigger a redraw by calling another function too, for example using `SetText` or `SetFontSize` with the same current value.
+This call is not enough to redraw the widget with the new font style. You can trigger a redraw by calling another function too, for example using \[this.SetText] or \[this.SetFontSize] with the same current value.
 
 `fontStyle` values are unique per font family, you can find them in `.inkfontfamily` files using WolvenKit. List of known values: `Regular`, `Light`, `Medium`, `Heavy`, `Semi-Bold`, `Bold`, `Extra Bold`, `Italic`, `Bold Italic`, `Black`, `Demi`, `Book`, `Book Italic`.

@@ -14,7 +14,7 @@ This space is used to write and store documentation. It will synchronize the dat
 GitHub Api limits free access to 60 requests per hour. It doesn't require you to login with a GitHub account from NativeDB. It should be good enough for now.
 {% endhint %}
 
-If you never used GitBook before, you'll see that it is easy to use after learning some basics. [See this guide](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/the-wiki) to learn you're way around.
+If you never used GitBook before, you'll see that it is easy to use after learning some basics. [See this guide](https://app.gitbook.com/s/4gzcGtLrr90pVjAWVdTc/the-wiki) to find your way around.
 
 NativeDB provides buttons to quickly open GitBook in the right place:
 

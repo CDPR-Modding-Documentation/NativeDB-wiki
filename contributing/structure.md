@@ -42,7 +42,7 @@ Title of the page must be the native name of the class. You can configure code s
 
 ### Add a description
 
-Add header "Description**"** using block "Heading 1".
+Add header "Descriptio&#x6E;**"** using block "Heading 1".
 
 {% hint style="success" %}
 **DO** write Description
@@ -71,7 +71,7 @@ Add header "Functions" using block "Heading 1", if it doesn't exist already. You
 Add a function using block "Heading 3". This header must be the signature of the function using the `Pseudocode · Legacy` code syntax.
 
 {% hint style="warning" %}
-If the signature of the function is not valid, you're change request will not be merged.
+If the signature of the function is not valid, your change request will not be merged.
 {% endhint %}
 
 You should use the feature provided by NativeDB to quickly copy the signature of a function in your clipboard. You can do so like this:
