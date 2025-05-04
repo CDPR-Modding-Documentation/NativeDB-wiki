@@ -23,6 +23,16 @@ Use with everything time-based:
 * REDengine simulation time
 * time dilation (e.g. when activating Sandevistan)
 
+You can convert real-time to/from game-time with the table below (or use \[this.RealTimeSecondsToGameTime]):
+
+```
+    GameTime │     RealTime
+─────────────┼─────────────
+24:00:00.000 │ 03:00:00.000
+00:08:00.000 │ 00:01:00.000
+00:01:00.000 │ 00:00:07.500
+```
+
 ## Functions
 
 #### GetGameTime() -> GameTime
