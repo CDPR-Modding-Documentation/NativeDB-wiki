@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # ScriptGameInstance
 
 ## Description
@@ -29,6 +15,10 @@ CDPR only.
 #### GetDelaySystem(self: ScriptGameInstance) -> handle:gameDelaySystem
 
 Get system used to execute callback functions after a delay. It runs functions asynchronously in game loop.
+
+#### GetFxSystem(self: ScriptGameInstance) -> handle:gameFxSystem
+
+Get system used to spawn particle effects in the world.
 
 #### GetSimTime(self: ScriptGameInstance) -> EngineTime
 
