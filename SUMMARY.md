@@ -24,6 +24,8 @@
 * [gameObject](classes/gameobject.md)
 * [gameScriptableSystem](classes/gamescriptablesystem.md)
 * [gameFxSystem](classes/gamefxsystem.md)
+* [gameStatPoolsSystem](classes/gamestatpoolssystem.md)
+* [gameIStatPoolsListener](classes/gameistatpoolslistener.md)
 * [gameScriptableSystemRequest](classes/gamescriptablesystemrequest.md)
 * [gameTargetSearchQuery](classes/gametargetsearchquery.md)
 * [gameTimeSystem](classes/gametimesystem.md)
